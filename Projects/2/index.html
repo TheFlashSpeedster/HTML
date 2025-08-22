@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#ol">Ordered Lists</a>
+            <a href="#ul">Unordered Lists</a>
+            <a href="#table">Table</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <section id="ol">
+        <h3>Ordered List (5 Types)</h3>
+        <ol type="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="A">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="a">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="I">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="i">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </section>
+    <hr>
+    <section id="ul">
+        <h3>Unordered List (1 Type)</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <hr>
+    </section>
+    <section id="table">
+        <h3>Table</h3>
+        <table border="1">
+            <caption>Programming Languages</caption>
+            <tr>
+                <th colspan="3">Difficulty</th>
+            </tr>
+            <tr>
+                <th>Easy</th>
+                <th>Moderate</th>
+                <th>Hard</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Java</td>
+                <td>C++</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <hr>
+    <section id="contact">
+        <h3>Contact Form</h3>
+        <form action="/submit" method="post">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name"><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="phone">Phone No: </label>
+            <input type="tel" name="phone" id="phone"><br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="in">India</option>
+                <option value="pk">Pakistan</option>
+                <option value="jp">Japan</option>
+                <option value="ch">China</option>
+                <option value="nk">North Korea</option>
+                <option value="sk">South Korea</option>
+            </select><br>
+            <label for="msg">Message: </label>
+            <textarea rows="5" cols="50">
+                Your Message...
+            </textarea><br>
+            <!-- <label for="submit"></label> -->
+            <input type="submit" name="submit" id="submit" value="Send">
+        </form>
+    </section>
+    <section id="iframe">
+        <iframe src="https://www.youtube.com/embed/U9utoCqdQDE" width="300px" height="250px"></iframe>
+    </section>
+</body>
+</html>

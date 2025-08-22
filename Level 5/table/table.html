@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<!--
+border - table border (recommended = 1)
+tr - create new row of table
+th or td - cell data (bold) or cell data (normal)
+colspan - merge cells
+caption - gives caption to table (top center)
+-->
+<body>
+    <table border="1">
+        <caption>Employee Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>123</td>
+            <td>tom@apple.in</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>213</td>
+            <td>bob@apple.in</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="1">
+        <caption>Employee Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td colspan="3">Tom</td>
+             
+        </tr>
+        <tr>
+            <td colspan="2">Bob</td>
+            
+            <td>bob@apple.in</td>
+        </tr>
+    </table>
+</body>
+</html>
